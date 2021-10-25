@@ -1,0 +1,10 @@
+.row.gx-0.justify-content-center
+  .col-lg-6
+    img.img-fluid(v-bind:src='image_url' v-bind:alt='image_alt')
+  .col-lg-6(v-bind:class='orientationClass')
+    .bg-black.text-center.h-100
+      .d-flex.h-100
+        small-text-content.description-text.w-100.my-auto(
+          v-bind:title="title"
+          v-bind:content="content"
+        )

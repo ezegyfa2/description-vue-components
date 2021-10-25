@@ -1,0 +1,10 @@
+.container.px-4.px-lg-5
+	black-description-section(
+		v-for='description in this.descriptionWithOrientations' 
+		v-bind:title='description.title'
+		v-bind:content='description.content'
+		v-bind:key="description.title"
+		v-bind:left_orientation="description.left_orientation"
+		v-bind:image_url="description.image_url"
+		v-bind:image_alt="description.image_alt"
+	)
