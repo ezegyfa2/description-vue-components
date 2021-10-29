@@ -30,10 +30,8 @@
     .col-lg-6 {
         padding: 0;
     }
-    .bg-black {
+    .content-container {
         background-color: black !important;
-    }
-    .my-auto {
         margin-top: auto !important;
         margin-bottom: auto !important;
     }

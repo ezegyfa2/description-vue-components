@@ -18,20 +18,23 @@
     }
 </script>
 
-<style scoped>
+<style lang="less" scoped>
     @media (max-width: 992px) {
         .description-text {
             padding: 2rem;
         }
     }
+    @border: 0.5rem solid #64a19d;
+    @borderWidth: 2rem;
     @media (min-width: 992px) {
+        //Dynamic css values
         .left-border {
-            border-left: 0.5rem solid #64a19d;
-            padding: 0 0 0 2rem;
+            border-left: @border;
+            padding: 0 0 0 @borderWidth;
         }
         .right-border {
-            border-right: 0.5rem solid #64a19d;
-            padding: 0 2rem 0 0;
+            border-right: @border;
+            padding: 0 @borderWidth 0 0;
         }
     }
 </style>
