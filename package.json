@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/ezegyfa2/description-vue-components.git"
   },
+  "dependencies": {
+    "just-clone": "^3.2.1"
+  },
   "author": "ezegyfa",
   "license": "ISC",
   "bugs": {
