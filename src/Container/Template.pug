@@ -1,0 +1,6 @@
+.container.px-4.px-lg-5
+	dynamic-component(
+		v-for='description in this.descriptionWithOrientations' 
+		v-bind:key='description.data.title'
+		v-bind:component_infos='description'
+    )

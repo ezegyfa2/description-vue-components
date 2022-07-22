@@ -4,8 +4,8 @@
             title: {
                 type: String
             },
-            content: {
-                type: String
+            text_content_section: {
+                type: Object
             },
             image_url: {
                 type: String
