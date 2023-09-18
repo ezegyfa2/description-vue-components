@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import Description from './../Description.vue';
+    import Description from '../Description/Component.vue';
 
     export default {
         mixins: [

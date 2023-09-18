@@ -4,7 +4,7 @@
 
 <script>
     import clone from 'just-clone'
-    import ClassAdder from '../../../helper-vue-components/src/ClassAdder.vue'
+    import ClassAdder from 'helper-vue-components/ClassAdder/Component.vue'
 
     export default {
         mixins: [

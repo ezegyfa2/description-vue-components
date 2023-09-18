@@ -3,7 +3,7 @@ export default {
         require('../Description').default.install(Vue)
 
         registerVueComponent(
-            'white-description-section',
+            'black-description-section',
             require('./Component.vue').default,
             Vue
         )
