@@ -20,7 +20,7 @@
         },
         computed: {
             orientationClass() {
-                return this.left_orientation ? "order-lg-first" : "";
+                return this.left_orientation ? 'order-lg-first' : '';
             }
         }
     }
