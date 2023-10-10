@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('helper-vue-components/ClassAdder').default.install(Vue)
 
-        registerVueComponent(
-            'description-section-container',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('description-section-container', () => import('./Component.vue'))
     }
 }
