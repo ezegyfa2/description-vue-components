@@ -1,7 +1,8 @@
 .row.mb-4.mb-lg-5.align-items-center.justify-content-center
     .col-lg-8.col-xl-7
-        img.side-image.img-fluid.mb-3.mb-lg-0(
+        b-lazy-image.side-image.mb-3.mb-lg-0(
             v-bind:src='image_url' 
+            srcset='images/articles/blonde-woman-floral-dress-cafe.webp 480w, images/articles/e-commerce-shop-online-homepage-sale-concept.webp 800w'
             v-bind:alt='image_alt'
         )
     .col-lg-4(v-bind:class='orientationClass')
