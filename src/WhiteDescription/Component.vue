@@ -9,6 +9,19 @@
         mixins: [
             Description
         ],
+        data() {
+            return {
+                imageWidths: [
+                    272,
+                    327,
+                    377,
+                    609,
+                    720,
+                    772,
+                    814,
+                ]
+            }
+        },
         computed: {
             textBorderClass() {
                 //Reversed becouse the left_orientation indicate the image position
